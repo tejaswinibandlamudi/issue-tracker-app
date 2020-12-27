@@ -1,0 +1,31 @@
+﻿input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1.5px solid #3CBC8D;
+    border-radius: 4px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #3CBC8D;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
